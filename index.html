@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>মেজবাহ মুন্তাসির আরশ কবিতা ঘর</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: url('https://plus.unsplash.com/premium_photo-1681426327290-1ec5fb4d3dd8?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29vbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D') no-repeat center center fixed;
+            background-size: cover;
+            text-align: center;
+        }
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            background: linear-gradient(to right, red, blue);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 24px;
+        }
+        .poem {
+            text-align: left;
+            margin-top: 20px;
+            padding: 10px;
+            background: #fff;
+            border-left: 5px solid #007BFF;
+        }
+        button {
+            width: 45%;
+            margin: 10px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background: #007BFF;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .video-button {
+            width: 100%;
+            margin-top: 20px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background: linear-gradient(to right, red, blue);
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .video-button:hover {
+            background: linear-gradient(to right, blue, red);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>মেজবাহ মুন্তাসির আরশ কবিতা ঘর</h1>
+        <button onclick="openKobita()">কবিতা</button>
+        <button onclick="alert('গল্প আসছে শীঘ্রই!')">গল্প</button>
+        <button style="width: 100%; margin-top: 10px; padding: 10px; border: none; border-radius: 5px; background: linear-gradient(to right, red, blue); color: white; font-size: 16px; cursor: pointer; transition: 0.3s;" onclick="window.open('https://www.youtube.com/channel/UC2vWRCvyHL-XxDIFmSxcdvQ', '_blank')">আমার ইউটিউব চ্যানেল সাবস্ক্রাইব করুন</button>
+        <!-- New button to watch video -->
+        <button class="video-button" onclick="window.open('https://youtube.com/shorts/pUd89Zfllw0?si=X7EBA6ELXowCn37r', '_blank')">Watch My Videos</button>
+    </div>
+
+    <script>
+    function openKobita() {
+            let newWindow = window.open('', '_blank');
+            newWindow.document.write(
+                `<!DOCTYPE html>
+                <html lang='bn'>
+                <head>
+                    <meta charset='UTF-8'>
+                    <title>কবিতা</title>
+                    <style>
+                        body { font-family: Arial, sans-serif; padding: 20px; text-align: center; background: url('https://plus.unsplash.com/premium_photo-1681426327290-1ec5fb4d3dd8?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y29vbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8fDA%3D') no-repeat center center fixed; background-size: cover; }
+                        .poem { text-align: left; margin: auto; width: 60%; background: white; padding: 20px; border-radius: 10px; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); }
+                    </style>
+                </head>
+                <body>
+                    <!-- First Poem -->
+                    <div class='poem'>
+                        <h2>দেশের মাটি লাল-সবুজে</h2>
+                        <h4>মেজবাহ মুন্তাসির, আরশ</h4>
+                        <p>দেশের মাটি লাল-সবুজে<br>এই যে আমার বাড়ি।<br>ওরে লাল-সবুজের খনি,<br>আমি আমার বাংলা ভাষা মানি।</p>
+                        <p>ওই দিকে চাঁদের আলো,<br>এই দিকে তো বাংলা ভালো।<br>প্রাণের ভাষা, বাংলা ভাষা—<br>রক্ত দিয়েছি তোমায়।</p>
+                        <p>এই বাংলা জীবিত বলে,<br>আজ আমরা মুক্ত ছড়া।<br>আমার বাংলার নদীর জগত,<br>শহীদেরা সেরা জগত।</p>
+                        <p>ও বাংলা, আমার ভাষা,<br>ও বাংলা, আমার জমি।<br>দেশের মাটি লাল-সবুজে,<br>এই যে আমার বাড়ি।</p>
+                    </div>
+
+                    <!-- Second Poem (Newly Added) -->
+                    <div class='poem'>
+                        <h2>বাংলা শবার প্রাণের মেলা</h2>
+                        <h4>মেজবাহ মুন্তাসির, আরশ</h4>
+                        <p>বৈশাখ মাসে গৃষ্ম নামে,<br>জোইষ্ঠো মাসে ঝড় নামে।</p>
+                        <p>আষাঢ মাসে বর্ষা নামে,<br>শ্রাবণ মাসে বৃষ্টি পড়ে।</p>
+                        <p>ভাদ্র মাসে শরত নামে,<br>আশিন মাসে মেঘ বসে।</p>
+                        <p>কার্তিক মাসে হেমন্ত নামে,<br>অগ্রহায়ণ মাসে উত্সব বসে।</p>
+                        <p>পৌষ মাসে শীত আশে,<br>মাঘ মাসে কুশার ঢাকে।</p>
+                        <p>ফাল্গুন মাসে বসন্ত বসে,<br>চৈত্র মাসে কোকিল ডাকে।</p>
+                        <p>গৃষ্ম কালে আলোর মেলা,<br>বর্ষা কালে বাদল মেলা।</p>
+                        <p>শরত কালে মেঘের মেলা,<br>হেমন্ত কালে ধানের মেলা।</p>
+                        <p>শীত কালে চাদের মেলা,<br>বসন্ত কালে পাখির মেলা।</p>
+                        <p>বাংলা শবার প্রাণের মেলা,<br>বাংলা শবার মাতৃভাষা।</p>
+                    </div>
+                </body>
+                </html>`
+            );
+        }
+    </script>
+</body>
+</html>
